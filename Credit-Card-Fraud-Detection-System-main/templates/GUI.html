@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Credit Card Fraud Detection</title>
+    <style>
+    body {
+        background-color: powderblue;
+    }
+    h1  {
+        color: Brown;
+        text-align : center;
+        font-size : 50px;
+        }
+    .ff{
+        text-align : center;
+    }
+    .sb{
+        height:100px;
+        width:150px;
+        font-size : 40px;
+        background-color : pink;
+    }
+</style>
+</head>
+<body>
+    <h1 >Credit Card Fraud Detection</h1>
+    <form name = "passdata"  class = "ff" action="." method="POST">
+
+        <label for = "distance_from_home">Distance from Home : </label>
+        <input type = "text" name = "distance_from_home">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for = "distance_from_last_transaction">Distance from Last Transaction : </label>
+        <input type = "text" name = "distance_from_last_transaction">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+        <label for = "ratio_to_median_purchase_price">Ratio to Median Purchase : </label>
+        <input type = "text" name = "ratio_to_median_purchase_price">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for = "repeat_retailer">Repeat Retailer : </label>
+        <input type = "text" name = "repeat_retailer"><br><br>
+        <label for = "used_chip">Used Chip : </label>
+        <input type = "text" name = "used_chip">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for = "used_pin_number">Used Pin Number : </label>
+        <input type = "text" name = "used_pin_number">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+        <label for = "online_order">Online Order : </label>
+        <input type = "text" name = "online_order">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+        <input type = "submit" class="sb" value="Submit">
+
+    </form>
+</body>
+</html>
